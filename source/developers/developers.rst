@@ -1,6 +1,5 @@
-**********
 Developers
-**********
+##########
 
 General information:
 
@@ -18,6 +17,7 @@ Component specific information:
 .. toctree::
    :maxdepth: 2
 
+   design/design
    cti_server/cti_server
    provisioning/provisioning
    sccp
