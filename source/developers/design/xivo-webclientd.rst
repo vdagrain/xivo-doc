@@ -20,9 +20,9 @@ development and implementation of following actions is in progress:
 Component's architecture from 10,000 feet
 *****************************************
 
-This component is using Play_ framework. Play framework based application verify user's credentials in
-the configuration database via DAO component. The Direct Exchange queue ``xivo_agent`` is used in RPC
-mode for agent's features management.
+This component is using Play_ framework. Play framework based application verify user's credentials
+using ``xivo-rest-api`` web services. The Direct Exchange queue ``xivo_agent`` is used in RPC mode for
+agent's features management.
 
 .. _Play: http://www.playframework.com/
 
