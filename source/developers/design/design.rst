@@ -9,3 +9,4 @@ Available design documents:
    xivo-services
    xivo-configuration-server
    xivo-agentd
+   xivo-webclientd
