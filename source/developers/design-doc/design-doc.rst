@@ -1,5 +1,5 @@
-Design
-######
+Design documents
+################
 
 Available design documents:
 

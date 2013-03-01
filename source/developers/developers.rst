@@ -17,7 +17,7 @@ Component specific information:
 .. toctree::
    :maxdepth: 2
 
-   design/design
+   design-doc/design-doc
    cti_server/cti_server
    provisioning/provisioning
    sccp
