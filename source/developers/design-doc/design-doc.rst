@@ -1,12 +1,17 @@
 Design documents
 ################
 
-Available design documents:
+Existing components:
 
 .. toctree::
    :maxdepth: 2
 
+   xivo-agentd
+
+Incubator:
+
+.. toctree:: 
+
    xivo-services
    xivo-configuration-server
-   xivo-agentd
    xivo-webclientd

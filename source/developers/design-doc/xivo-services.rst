@@ -1,8 +1,8 @@
 XiVO services
 #############
 
-Service listing
-***************
+Listing
+*******
 
 XiVO propose following services:
 
