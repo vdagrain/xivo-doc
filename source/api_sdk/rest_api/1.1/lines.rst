@@ -184,6 +184,13 @@ User-Line-Extension Association
 See :ref:`user-line-extension-association`.
 
 
+Device-Line Association
+-----------------------
+
+See :ref:`device-line-association-api`.
+
+
+
 SIP Lines
 =========
 

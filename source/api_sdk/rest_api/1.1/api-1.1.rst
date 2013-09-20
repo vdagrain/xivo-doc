@@ -13,11 +13,12 @@ REST API 1.1
 .. toctree::
 
    call_logs
+   devices
+   device_links
    extensions
    lines
    users
    user_links
-   devices
 
 
 Migration from 1.0
@@ -37,4 +38,3 @@ URL
   In 1.1, it is::
 
      /1.1/users
-

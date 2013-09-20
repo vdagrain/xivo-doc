@@ -381,6 +381,8 @@ id
     HTTP/1.1 204 No Content
 
 
+.. _synchronize-device-api:
+
 Synchronize a device
 ====================
 
@@ -403,3 +405,9 @@ id
 **Example response**::
 
     HTTP/1.1 204 No Content
+
+
+Device-line Association
+=======================
+
+See :ref:`device-line-association-api`.
