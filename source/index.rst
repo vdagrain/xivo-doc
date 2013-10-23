@@ -23,6 +23,9 @@ or as `a PDF file <http://documentation.xivo.fr/pdf/>`_
 .. _XiVO blog: http://blog.xivo.fr/
 .. _XiVO wiki: http://wiki.xivo.fr/
 
+If you are new to XiVO you might want to start by reading the :ref:`installation` and :ref:`getting_started`
+sections to learn how to install and get your first phone configured.
+
 
 Table of Contents
 =================
