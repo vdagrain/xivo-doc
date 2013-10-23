@@ -2,6 +2,10 @@ body {
 	background-color: #fff;
 }
 
+.footer {
+	text-align: center;
+}
+
 h1,h2,h3,h4 {
 	margin-top: .8em;
 	font-family: "Trebuchet MS", sans-serif;
