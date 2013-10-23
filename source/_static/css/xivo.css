@@ -2,6 +2,18 @@ body {
 	background-color: #fff;
 }
 
+.navbar-default {
+	background-color: #ef7623;
+}
+
+.navbar {
+	background-image: none;
+}
+
+.navbar-default .navbar-nav > li > a {
+	font-color: black;
+}
+
 .footer {
 	text-align: center;
 }
