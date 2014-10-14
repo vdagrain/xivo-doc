@@ -41,6 +41,8 @@ API reference
    voicemail_links
    configuration
    agent_queue
+   agentgroups
+   group_agents
 
 
 Migration from 1.0
