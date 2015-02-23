@@ -125,8 +125,11 @@ Current archive version between 1.2 and 13.24 (here 1.2.3 to 14.16)
 .. We need to explicitly install xivo-upgrade before running it, in case the admin has already run
    xivo-upgrade, but cancelled the upgrade.
 
-Current archive version after 13.25 (here 13.25 to 14.16)
----------------------------------------------------------
+Current archive version after 13.25
+-----------------------------------
+
+... and destination version <= 14.17
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ::
 
@@ -148,6 +151,35 @@ Current archive version after 13.25 (here 13.25 to 14.16)
 
 .. We need to explicitly install xivo-upgrade before running it, in case the admin has already run
    xivo-upgrade, but cancelled the upgrade.
+
+... and destination version >= 14.18
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+::
+
+   cat > /etc/apt/preferences.d/50-xivo-15.01.pref <<EOF
+   Package: *
+   Pin: release a=xivo-15.01
+   Pin-Priority: 700
+   EOF
+
+   apt-get update
+   apt-get install xivo-fai
+   apt-get purge xivo-fai-13.25
+   apt-get update
+   apt-get install xivo-dist
+   xivo-dist xivo-15.01
+   rm /etc/apt/sources.list.d/xivo.list
+   apt-get update
+   apt-get install xivo-upgrade/xivo-15.01
+   xivo-upgrade
+   rm /etc/apt/preferences.d/50-xivo-15.01.pref
+
+.. When you target a version >=14.18 you need to use xivo-dist.
+
+.. We need to explicitly install xivo-upgrade before running it, in case the admin has already run
+   xivo-upgrade, but cancelled the upgrade.
+
 
 Current archive version after 14.18
 -----------------------------------
