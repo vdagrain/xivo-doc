@@ -11,11 +11,13 @@ Infos Representation
 Description
 -----------
 
-+-------+--------+-------------+
-| Field | Values | Description |
-+=======+========+=============+
-| uuid  | string | XiVO's UUID |
-+-------+--------+-------------+
++-------------+--------+--------------------+
+| Field       | Values | Description        |
++=============+========+====================+
+| uuid        | string | XiVO's UUID        |
++-------------+--------+--------------------+
+| total_users | int    | XiVO's total users |
++-------------+--------+--------------------+
 
 
 Example
@@ -25,6 +27,7 @@ Example
 
    {
        "uuid": "6fa459ea-ee8a-3ca4-894e-db77e160355e",
+       "total_users": 2341,
        "links": [
            "rel": "infos",
            "href": "https://xivoserver/1.1/infos?resource_id=6fa459ea-ee8a-3ca4-894e-db77e160355e"
@@ -62,5 +65,6 @@ Example response
    Content-Type: application/json
 
    {
-       "uuid": "6fa459ea-ee8a-3ca4-894e-db77e160355e"
+       "uuid": "6fa459ea-ee8a-3ca4-894e-db77e160355e",
+       "total_users": 2341
    }
