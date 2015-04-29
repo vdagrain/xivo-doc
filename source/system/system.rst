@@ -6,6 +6,7 @@ System
    :maxdepth: 2
 
    service
+   service_discovery
    Network <network/network>
    proxy
    log_files
